@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #4B40C8;
+    height: 80px;
+    position: relative;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+
+}
+.header_menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header li{
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 5px 15px;
+    text-transform: uppercase;
+    list-style: none;
+    color: #ffffff;    
+    &:hover{
+        color: #21dde7;
+        cursor: hand;
+    }
+}
+
